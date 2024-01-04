@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .overall-container {
+    min-width: 800px;
+    margin: 20px auto; /* Added margin for spacing */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 600px; /* Set a minimum height */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center the children horizontally */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .buses-avail-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px; /* Added margin for spacing between heading and buses */
+  }
+  
+  .bus-avail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    width: 450px;
+    height: 70px;
+  }
+  
+  .bus-avail:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .d-flex {
+   flex-direction: row;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fare {
+    color: #007bff;
+  }
+  
